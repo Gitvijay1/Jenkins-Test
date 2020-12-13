@@ -12,8 +12,13 @@ public class HelloController {
 	}
 	
 	@GetMapping("/two")
-	public String show1() {
+	public String show1(){
 		return "WELCOME TO JENKINS";
+	}
+	
+	@GetMapping("/two")
+	public String show2(){
+		return "WELCOME";
 	}
 
 }
